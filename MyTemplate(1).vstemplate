@@ -1,0 +1,42 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>newproject</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>newproject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Engine.vcxproj" File="Engine.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">Engine.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="DXErr.cpp">DXErr.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.cpp">Game.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Graphics.cpp">Graphics.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Keyboard.cpp">Keyboard.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Main.cpp">Main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MainWindow.cpp">MainWindow.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Mouse.cpp">Mouse.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ChiliException.h">ChiliException.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ChiliWin.h">ChiliWin.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Colors.h">Colors.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="DXErr.h">DXErr.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.h">Game.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Graphics.h">Graphics.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Keyboard.h">Keyboard.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="MainWindow.h">MainWindow.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Mouse.h">Mouse.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Resource.h">Resource.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Resource.rc">Resource.rc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Chili.ico">Chili.ico</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FramebufferPS.hlsl">FramebufferPS.hlsl</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="FramebufferVS.hlsl">FramebufferVS.hlsl</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
